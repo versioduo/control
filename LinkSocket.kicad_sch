@@ -2005,7 +2005,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "100R"
 			(at 157.48 119.38 0)
 			(effects
 				(font
