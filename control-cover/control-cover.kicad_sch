@@ -732,12 +732,6 @@
 		(uuid "729b049e-34f2-49cf-9517-8fc2b5b9a855")
 	)
 	(junction
-		(at 138.43 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d313931-9501-4c17-a968-3a3abe09c8b7")
-	)
-	(junction
 		(at 138.43 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -785,6 +779,73 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
+		(at 149.86 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09391f27-cba6-4ddb-be9e-f572de4a0faa")
+		(property "Reference" "#PWR0102"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82b65dd8-89cb-477e-bbe3-deb23dc27ad7")
+		)
+		(instances
+			(project "control-cover"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:GND")
 		(at 138.43 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -793,7 +854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23651f76-fae5-4dcc-a59c-e18c6b3dfacc")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR101"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -844,7 +905,7 @@
 		(instances
 			(project "control-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0101")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -1138,7 +1199,7 @@
 			)
 		)
 		(property "Value" "2mm_Pad_5.2mm"
-			(at 160.02 59.6899 90)
+			(at 153.162 59.4359 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,15 +1320,15 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 138.43 85.09 90)
+		(at 149.86 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e995d846-5a83-4b77-a7d8-b01029861643")
-		(property "Reference" "#FLG0101"
-			(at 136.525 85.09 0)
+		(property "Reference" "#FLG101"
+			(at 149.86 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,7 +1337,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 129.54 85.09 90)
+			(at 139.192 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 85.09 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +1354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 85.09 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1363,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 138.43 85.09 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1377,7 @@
 		(instances
 			(project "control-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0101")
+					(reference "#FLG101")
 					(unit 1)
 				)
 			)
@@ -1341,7 +1402,7 @@
 			)
 		)
 		(property "Value" "1mm"
-			(at 154.305 107.95 0)
+			(at 147.701 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
