@@ -571,7 +571,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10u"
+			(property "Value" "22u"
 				(at 1.524 -2.032 0)
 				(effects
 					(font
@@ -1399,6 +1399,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -2670,7 +2671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 196.85 100.33 0)
 			(effects
 				(font
@@ -3143,7 +3144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 208.28 100.33 0)
 			(effects
 				(font

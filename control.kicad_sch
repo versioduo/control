@@ -5705,6 +5705,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "V2_power:+28V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+28V"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 255 92 187 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+28V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+28V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "V2_power:+3V3"
 			(power)
 			(pin_numbers
@@ -5731,6 +5857,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -5856,6 +5983,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -5981,6 +6109,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -6596,7 +6725,7 @@
 		(uuid "1a80f5c1-09d3-4263-9c2f-27998956eae0")
 	)
 	(junction
-		(at 46.99 176.53)
+		(at 49.53 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2374b307-f989-4a8c-b29b-a78a124a539e")
@@ -6632,7 +6761,7 @@
 		(uuid "43b1c1ac-f722-4e50-8568-4964586377e7")
 	)
 	(junction
-		(at 46.99 168.91)
+		(at 49.53 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55ff164a-65a2-436f-82e1-3f44943cdcaf")
@@ -7151,16 +7280,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 168.91) (xy 63.5 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cc94041-4808-454a-8bdd-fed50de91834")
-	)
-	(wire
-		(pts
 			(xy 181.61 36.83) (xy 181.61 39.37)
 		)
 		(stroke
@@ -7519,16 +7638,6 @@
 		)
 		(uuid "f4a2376a-f7a6-45f4-be4c-fefc67405127")
 	)
-	(wire
-		(pts
-			(xy 49.53 153.67) (xy 64.77 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1c578a-e3a8-41bc-96ae-4663b07d5202")
-	)
 	(label "SWCLK"
 		(at 148.59 95.25 180)
 		(effects
@@ -7598,16 +7707,6 @@
 			(justify left bottom)
 		)
 		(uuid "28345d24-6338-4428-8a49-58e2d68a5227")
-	)
-	(label "+24V-Input"
-		(at 48.26 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b165aa2-8b20-48a6-8b73-304c8efdbd67")
 	)
 	(label "Button-LED"
 		(at 228.6 52.07 0)
@@ -7788,16 +7887,6 @@
 			(justify right bottom)
 		)
 		(uuid "cc2d8d1e-2b1a-401d-9738-3f2fbb0be7ef")
-	)
-	(label "+24V-Input"
-		(at 64.77 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d49f1f26-c42c-40fd-b841-fd2f2104b631")
 	)
 	(label "Socket-TX"
 		(at 99.06 186.69 0)
@@ -8757,7 +8846,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 46.99 176.53 0)
+		(at 49.53 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8765,7 +8854,7 @@
 		(dnp no)
 		(uuid "2085b53c-176d-43e1-b717-38c7e8918269")
 		(property "Reference" "#PWR133"
-			(at 46.99 182.88 0)
+			(at 49.53 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,7 +8863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.01 181.96 0)
+			(at 47.55 178.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 176.53 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 176.53 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +8891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 176.53 0)
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,6 +9759,74 @@
 		)
 	)
 	(symbol
+		(lib_id "V2_power:+28V")
+		(at 41.91 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f17747b-392a-4041-ae8f-bff9e1909a9b")
+		(property "Reference" "#PWR0139"
+			(at 53.594 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+28V"
+			(at 38.1 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 92 187 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 56.642 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6733fc5c-7aa5-4a47-9dd6-0f9b84a461c9")
+		)
+		(instances
+			(project "control"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 246.38 143.51 0)
 		(unit 1)
@@ -9810,7 +9967,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:SMBJ33CA")
-		(at 46.99 172.72 90)
+		(at 49.53 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9819,7 +9976,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a3a1206-c292-4f66-a542-2cbabf2e14ca")
 		(property "Reference" "TVS102"
-			(at 50.8 171.4499 90)
+			(at 53.34 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,7 +9985,7 @@
 			)
 		)
 		(property "Value" "SMBJ33CA"
-			(at 50.8 173.9899 90)
+			(at 53.34 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +9994,7 @@
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_SMB"
-			(at 52.705 172.72 0)
+			(at 55.245 168.91 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -9846,7 +10003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 172.72 0)
+			(at 59.69 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +10012,7 @@
 			)
 		)
 		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional, 36.7-40.6V"
-			(at 59.69 172.72 0)
+			(at 62.23 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +10021,7 @@
 			)
 		)
 		(property "Mouser" "652-SMBJ33CA-Q"
-			(at 70.104 172.72 0)
+			(at 72.644 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +10030,7 @@
 			)
 		)
 		(property "Product" "SMBJ33CA-Q"
-			(at 64.77 172.72 0)
+			(at 67.31 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9882,7 +10039,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 62.23 172.72 0)
+			(at 64.77 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +10048,7 @@
 			)
 		)
 		(property "Rating" "33V"
-			(at 67.31 172.72 0)
+			(at 69.85 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10062,7 +10219,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 41.91 176.53 180)
+		(at 44.45 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10070,7 +10227,7 @@
 		(dnp no)
 		(uuid "5ba6b68f-bd33-4d3d-9da8-608f2fe4a21f")
 		(property "Reference" "J104"
-			(at 28.067 176.53 0)
+			(at 27.813 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +10235,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 33.782 179.324 0)
+			(at 33.528 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10086,7 +10243,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 41.91 172.72 0)
+			(at 44.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10095,7 +10252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 172.72 0)
+			(at 44.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10104,7 +10261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 176.53 0)
+			(at 44.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,7 +10270,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 41.91 163.322 0)
+			(at 44.45 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +10279,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 41.91 160.02 0)
+			(at 44.45 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,6 +13140,141 @@
 		)
 	)
 	(symbol
+		(lib_id "V2_power:+28V")
+		(at 49.53 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4eba1e0-1461-4a2e-9b97-f281492e03cf")
+		(property "Reference" "#PWR0138"
+			(at 49.53 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+28V"
+			(at 49.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 92 187 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62f1b0c3-ec8b-487d-9a4e-58edf252beda")
+		)
+		(instances
+			(project "control"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:+28V")
+		(at 49.53 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c505a789-a4fa-424d-ac86-8981a48fd739")
+		(property "Reference" "#PWR0137"
+			(at 37.846 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+28V"
+			(at 53.34 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 92 187 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.798 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f752fe80-667c-414c-9bfb-aad8cac91549")
+		)
+		(instances
+			(project ""
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "V2_Spacer_Wurth:9774030243")
 		(at 191.77 151.13 0)
 		(unit 1)
@@ -13154,7 +13446,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 41.91 168.91 180)
+		(at 44.45 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13162,7 +13454,7 @@
 		(dnp no)
 		(uuid "d632562c-0a08-4e40-8d74-16c443bf8c2d")
 		(property "Reference" "J103"
-			(at 28.321 168.91 0)
+			(at 28.067 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,7 +13462,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 34.036 171.45 0)
+			(at 33.782 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13178,7 +13470,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 41.91 165.1 0)
+			(at 44.45 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13187,7 +13479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 165.1 0)
+			(at 44.45 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13196,7 +13488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 168.91 0)
+			(at 44.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13205,7 +13497,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 41.91 155.702 0)
+			(at 44.45 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13214,7 +13506,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 41.91 152.4 0)
+			(at 44.45 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,7 +13591,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 49.53 153.67 0)
+		(at 49.53 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13307,7 +13599,7 @@
 		(dnp no)
 		(uuid "d97cf99b-1d1e-4dec-9749-2cbe966c8851")
 		(property "Reference" "#FLG104"
-			(at 49.53 151.765 0)
+			(at 49.53 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,7 +13608,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 39.37 153.67 0)
+			(at 39.37 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,7 +13616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 153.67 0)
+			(at 49.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +13625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 153.67 0)
+			(at 49.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +13634,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 49.53 153.67 0)
+			(at 49.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14873,7 +15165,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 166.37)
+		(at 41.91 185.42)
 		(size 16.51 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14889,7 +15181,7 @@
 		)
 		(uuid "24a9dc0c-cb3c-464a-a734-f09bf949d71a")
 		(property "Sheetname" "Power +5V"
-			(at 63.5 165.6584 0)
+			(at 41.91 184.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14898,7 +15190,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
-			(at 63.5 172.0346 0)
+			(at 41.91 191.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +15200,7 @@
 			)
 		)
 		(pin "Input" input
-			(at 63.5 168.91 180)
+			(at 41.91 187.96 180)
 			(uuid "48d0b66c-f312-4e80-af40-d7d8115b5003")
 			(effects
 				(font
