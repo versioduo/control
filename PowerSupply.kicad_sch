@@ -58,8 +58,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -238,8 +238,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -418,8 +418,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -427,7 +427,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "810-CNA6P1X7R1H106K2"
+			(property "Mouser" "810-CNC6P1X7R1H106K2"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -447,7 +447,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "CNA6P1X7R1H106K250AE"
+			(property "Product" "CNC6P1X7R1H106K250AE"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -598,8 +598,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1088,8 +1088,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1253,8 +1253,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2014,7 +2014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 182.88 116.84 0)
 			(effects
 				(font
@@ -2251,7 +2251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 182.88 111.76 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 107.95 111.76 0)
 			(effects
 				(font
@@ -2497,7 +2497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-CNA6P1X7R1H106K2"
+		(property "Mouser" "810-CNC6P1X7R1H106K2"
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -2515,7 +2515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CNA6P1X7R1H106K250AE"
+		(property "Product" "CNC6P1X7R1H106K250AE"
 			(at 107.95 116.84 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 138.43 121.92 0)
 			(effects
 				(font
@@ -2698,7 +2698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 194.31 111.76 0)
 			(effects
 				(font
@@ -2803,7 +2803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 111.76 0)
 			(effects
 				(font
@@ -3171,7 +3171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 205.74 111.76 0)
 			(effects
 				(font

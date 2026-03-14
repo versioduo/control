@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 control")
-		(date "2026-02-13")
+		(date "2026-03-14")
 		(rev "2026-02-13")
 		(company "Versio Duo")
 		(comment 1 "Instrument Controller")
@@ -509,8 +509,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -689,8 +689,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -15.24 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -869,8 +869,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -14.478 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -878,7 +878,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "603-CC603JRNPO9BN180"
+			(property "Mouser" "810-CGA3E2C0G1H180J"
 				(at 0 -23.368 0)
 				(show_name)
 				(effects
@@ -888,7 +888,7 @@
 					(hide yes)
 				)
 			)
-			(property "Product" "CC0603JRNPO9BN180"
+			(property "Product" "CGA3E2C0G1H180J080AA"
 				(at 0 -20.574 0)
 				(show_name)
 				(effects
@@ -898,7 +898,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "TDK"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -1039,8 +1039,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2033,8 +2033,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal, small symbol"
-				(at 0 -7.62 0)
+			(property "Description" ""
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2540,7 +2540,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "ESD"
-				(at -6.35 6.35 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2549,7 +2549,7 @@
 				)
 			)
 			(property "Value" "RCLAMP0582N"
-				(at -6.35 3.81 0)
+				(at -6.35 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2558,7 +2558,7 @@
 				)
 			)
 			(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-				(at 0 -17.78 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2585,7 +2585,7 @@
 				)
 			)
 			(property "Mouser" "947-RCLAMP0582N.TCT"
-				(at 0 -25.4 0)
+				(at 0 -21.59 0)
 				(show_name)
 				(effects
 					(font
@@ -2595,7 +2595,7 @@
 				)
 			)
 			(property "Product" "RCLAMP0582N.TCT"
-				(at 0 -22.86 0)
+				(at 0 -19.05 0)
 				(show_name)
 				(effects
 					(font
@@ -2605,7 +2605,7 @@
 				)
 			)
 			(property "Manufacturer" "Semtech"
-				(at 0 -20.32 0)
+				(at 0 -16.51 0)
 				(show_name)
 				(effects
 					(font
@@ -2616,8 +2616,8 @@
 			)
 			(symbol "RCLAMP0582N_0_1"
 				(rectangle
-					(start -6.35 2.54)
-					(end 6.35 -5.08)
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -2629,27 +2629,9 @@
 			)
 			(symbol "RCLAMP0582N_1_0"
 				(pin bidirectional line
-					(at -8.89 0 0)
+					(at -8.89 5.08 0)
 					(length 2.54)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "I/O1"
+					(name "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2664,11 +2646,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 2.54 -10.16 0)
+				(pin passive line
+					(at -8.89 2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name ""
+					(name "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2683,8 +2664,26 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 8.89 0 180)
+					(at 8.89 5.08 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -2702,7 +2701,7 @@
 					)
 				)
 				(pin power_in line
-					(at 8.89 -2.54 180)
+					(at 8.89 -5.08 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2721,11 +2720,10 @@
 				)
 			)
 			(symbol "RCLAMP0582N_1_1"
-				(pin no_connect line
-					(at 2.54 -7.62 0)
+				(pin passive line
+					(at -8.89 -5.08 0)
 					(length 2.54)
-					(hide yes)
-					(name ""
+					(name "D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2788,8 +2786,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 -5.08 0)
+			(property "Description" ""
+				(at 0 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4990,8 +4988,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5155,8 +5153,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5320,8 +5318,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5571,8 +5569,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 -7.62 0)
+			(property "Description" "Push button"
+				(at 0 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6695,7 +6693,7 @@
 		(uuid "0633d13a-aea9-49b1-a433-cee2cb61012c")
 	)
 	(junction
-		(at 204.47 105.41)
+		(at 200.66 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0af6c8e4-8d2a-4c9e-99a1-a4c43105261c")
@@ -6779,7 +6777,7 @@
 		(uuid "664da7b2-44b2-41b0-98d9-25d60aa0a5d7")
 	)
 	(junction
-		(at 204.47 102.87)
+		(at 200.66 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66c14992-a305-4fbd-8056-b10fe28993f0")
@@ -6843,11 +6841,11 @@
 		(uuid "3b59efd8-f6f4-4927-bfc4-7beef9412299")
 	)
 	(no_connect
-		(at 204.47 115.57)
+		(at 200.66 116.84)
 		(uuid "3cfbad7e-231e-4525-83ad-927d2bf97a3e")
 	)
 	(no_connect
-		(at 204.47 118.11)
+		(at 200.66 119.38)
 		(uuid "3cfbad7e-231e-4525-83ad-927d2bf97a3f")
 	)
 	(no_connect
@@ -6927,6 +6925,14 @@
 		(uuid "3cfbad7e-231e-4525-83ad-927d2bf97a55")
 	)
 	(no_connect
+		(at 232.41 118.11)
+		(uuid "554e0c4b-83da-4f51-aa2f-ae057778ec66")
+	)
+	(no_connect
+		(at 232.41 125.73)
+		(uuid "63e4854d-9250-4497-9ae8-fde423072330")
+	)
+	(no_connect
 		(at 71.12 34.29)
 		(uuid "90102a86-fbc0-4e91-9a66-acfc31d16ac1")
 	)
@@ -6950,7 +6956,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 120.65) (xy 232.41 120.65)
+			(xy 226.06 123.19) (xy 232.41 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6970,7 +6976,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 100.33) (xy 204.47 102.87)
+			(xy 200.66 101.6) (xy 200.66 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7070,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 105.41) (xy 215.9 105.41)
+			(xy 200.66 106.68) (xy 212.09 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7130,7 +7136,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 95.25) (xy 217.17 95.25)
+			(xy 200.66 96.52) (xy 213.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7160,7 +7166,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 102.87) (xy 215.9 102.87)
+			(xy 200.66 104.14) (xy 212.09 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7200,7 +7206,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 105.41) (xy 204.47 107.95)
+			(xy 200.66 106.68) (xy 200.66 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7230,16 +7236,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 123.19) (xy 232.41 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e20bf36-1263-4b79-b671-ce0f15dba9cb")
-	)
-	(wire
-		(pts
 			(xy 109.22 57.15) (xy 123.19 57.15)
 		)
 		(stroke
@@ -7247,6 +7243,16 @@
 			(type default)
 		)
 		(uuid "7461b1cb-18d4-4af7-9c31-54165dacde53")
+	)
+	(wire
+		(pts
+			(xy 226.06 115.57) (xy 232.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c82017-ef88-437e-b0d9-f3b3f0ca4a7b")
 	)
 	(wire
 		(pts
@@ -7340,7 +7346,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 92.71) (xy 217.17 92.71)
+			(xy 200.66 93.98) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7729,7 +7735,7 @@
 		(uuid "3e1f7b4c-96bb-43a8-bbad-30cc9e670899")
 	)
 	(label "USB-CC2"
-		(at 215.9 95.25 180)
+		(at 212.09 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7749,7 +7755,7 @@
 		(uuid "4058df0c-b84e-4212-a422-aa2dfbac30c4")
 	)
 	(label "USB-CC1"
-		(at 215.9 92.71 180)
+		(at 212.09 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7849,7 +7855,7 @@
 		(uuid "746abb8f-ac71-4065-9c4b-0f8414c17eff")
 	)
 	(label "USB-"
-		(at 215.9 102.87 180)
+		(at 212.09 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7879,7 +7885,17 @@
 		(uuid "9511cd5c-0b24-4695-b15f-c0c70d7a3379")
 	)
 	(label "USB+"
-		(at 215.9 105.41 180)
+		(at 226.06 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0d392e1-e924-45ab-85e9-239a04612ea2")
+	)
+	(label "USB+"
+		(at 212.09 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7938,16 +7954,6 @@
 		)
 		(uuid "f253b3b8-7819-45c0-a67a-94d5f090d894")
 	)
-	(label "USB+"
-		(at 226.06 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5ede5f7-0c85-4b40-8dd9-f10f7a2fb1c8")
-	)
 	(label "SWDIO"
 		(at 148.59 92.71 180)
 		(effects
@@ -7969,7 +7975,7 @@
 		(uuid "f9083532-94ea-44b5-a817-03350abb5d40")
 	)
 	(label "USB-"
-		(at 226.06 120.65 0)
+		(at 226.06 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8023,7 +8029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 115.57 38.1 0)
 			(effects
 				(font
@@ -8159,7 +8165,7 @@
 		(dnp no)
 		(uuid "04efcacc-5cf4-4605-81ff-2960516efa9d")
 		(property "Reference" "ESD101"
-			(at 234.95 113.03 0)
+			(at 234.696 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +8174,7 @@
 			)
 		)
 		(property "Value" "RCLAMP0582N"
-			(at 234.95 115.57 0)
+			(at 234.696 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -8614,7 +8620,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 250.19 120.65 270)
+		(at 250.19 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8622,7 +8628,7 @@
 		(dnp no)
 		(uuid "1b4db125-f7d9-4f6b-bb80-8b1c6fdcb409")
 		(property "Reference" "#PWR126"
-			(at 246.38 120.65 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8637,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 254 120.65 90)
+			(at 254 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 120.65 0)
+			(at 250.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 120.65 0)
+			(at 250.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 120.65 0)
+			(at 250.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +8728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 125.73 57.15 0)
 			(effects
 				(font
@@ -9268,7 +9274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 201.93 52.07 0)
 			(effects
 				(font
@@ -9460,7 +9466,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:0603_5k1")
-		(at 219.71 95.25 90)
+		(at 215.9 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9468,7 +9474,7 @@
 		(dnp no)
 		(uuid "39f0b8a4-b921-4cfb-bc9d-d7225392c583")
 		(property "Reference" "R104"
-			(at 217.1699 97.79 90)
+			(at 213.3599 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +9483,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 217.1699 100.33 90)
+			(at 213.3599 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9492,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 235.458 95.25 0)
+			(at 231.648 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 95.25 0)
+			(at 215.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,8 +9509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 232.41 95.25 0)
+		(property "Description" ""
+			(at 228.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +9519,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06035K10FKEAC"
-			(at 242.57 95.25 0)
+			(at 238.76 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,7 +9528,7 @@
 			)
 		)
 		(property "Product" "CRCW06035K10FKEAC"
-			(at 234.95 95.25 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,7 +9537,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 237.49 95.25 0)
+			(at 233.68 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,7 +9546,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 240.03 95.25 0)
+			(at 236.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9695,7 +9701,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 252.73 80.01 0)
+		(at 248.92 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9703,7 +9709,7 @@
 		(dnp no)
 		(uuid "3da6c217-a9ca-4061-8de9-a8697c946473")
 		(property "Reference" "#FLG103"
-			(at 252.73 78.105 0)
+			(at 248.92 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +9718,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 244.094 80.01 0)
+			(at 240.284 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +9726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 80.01 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 80.01 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9744,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 252.73 80.01 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +9774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f17747b-392a-4041-ae8f-bff9e1909a9b")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR139"
 			(at 53.594 187.96 0)
 			(effects
 				(font
@@ -9820,7 +9826,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0139")
+					(reference "#PWR139")
 					(unit 1)
 				)
 			)
@@ -9902,7 +9908,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 252.73 83.82 0)
+		(at 248.92 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9910,7 +9916,7 @@
 		(dnp no)
 		(uuid "479cbe7a-db42-40a7-9e66-957e29dc6e0f")
 		(property "Reference" "#FLG102"
-			(at 252.73 81.915 0)
+			(at 248.92 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +9925,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 244.094 83.82 0)
+			(at 240.284 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9927,7 +9933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 83.82 0)
+			(at 248.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9936,7 +9942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 83.82 0)
+			(at 248.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9945,7 +9951,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 252.73 83.82 0)
+			(at 248.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,7 +10549,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 273.05 116.84 0)
+		(at 273.05 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10551,7 +10557,7 @@
 		(dnp no)
 		(uuid "613be8d5-f2d4-46f8-9ded-4d74656142ba")
 		(property "Reference" "#PWR125"
-			(at 273.05 120.65 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10566,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 273.05 111.76 0)
+			(at 273.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 116.84 0)
+			(at 273.05 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 116.84 0)
+			(at 273.05 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,7 +10592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 116.84 0)
+			(at 273.05 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +10614,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 191.77 123.19 0)
+		(at 187.96 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10616,7 +10622,7 @@
 		(dnp no)
 		(uuid "616a3869-dcdc-4411-a46f-15ffd72fb8d5")
 		(property "Reference" "#PWR131"
-			(at 191.77 129.54 0)
+			(at 187.96 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 128.27 0)
+			(at 187.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 123.19 0)
+			(at 187.96 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +10649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 123.19 0)
+			(at 187.96 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 123.19 0)
+			(at 187.96 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11402,7 +11408,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 252.73 76.2 0)
+		(at 248.92 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11410,7 +11416,7 @@
 		(dnp no)
 		(uuid "855a580e-a64f-4d24-85f6-f5b3601cc682")
 		(property "Reference" "#FLG101"
-			(at 252.73 74.295 0)
+			(at 248.92 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +11425,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 244.094 76.2 0)
+			(at 240.284 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11427,7 +11433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 76.2 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,7 +11442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 76.2 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,7 +11451,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 252.73 76.2 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +11516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 175.26 52.07 0)
 			(effects
 				(font
@@ -11613,7 +11619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" ""
 			(at 29.21 44.45 0)
 			(effects
 				(font
@@ -11710,7 +11716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 31.75 62.738 0)
 			(effects
 				(font
@@ -11719,7 +11725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 31.75 71.628 0)
 			(show_name yes)
 			(effects
@@ -11729,7 +11735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 31.75 68.834 0)
 			(show_name yes)
 			(effects
@@ -11739,7 +11745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 31.75 66.04 0)
 			(show_name yes)
 			(effects
@@ -11809,7 +11815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 64.77 40.64 0)
 			(effects
 				(font
@@ -11871,7 +11877,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 273.05 124.46 0)
+		(at 273.05 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11879,7 +11885,7 @@
 		(dnp no)
 		(uuid "8b4b7fe8-9d02-4ab8-94ff-af848fba920d")
 		(property "Reference" "#PWR129"
-			(at 273.05 130.81 0)
+			(at 273.05 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +11894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 129.54 0)
+			(at 273.05 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11897,7 +11903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 124.46 0)
+			(at 273.05 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +11912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 124.46 0)
+			(at 273.05 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +11921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 124.46 0)
+			(at 273.05 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +11943,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 222.25 92.71 90)
+		(at 218.44 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11946,7 +11952,7 @@
 		(fields_autoplaced yes)
 		(uuid "90f9cec0-afe2-46f7-a3c5-ad2e3b2fb2f0")
 		(property "Reference" "#PWR122"
-			(at 228.6 92.71 0)
+			(at 224.79 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +11961,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 92.7099 90)
+			(at 222.25 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11965,7 +11971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 92.71 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,7 +11980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 92.71 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11983,7 +11989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 92.71 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,7 +12011,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+VBUS")
-		(at 252.73 76.2 270)
+		(at 248.92 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12014,7 +12020,7 @@
 		(fields_autoplaced yes)
 		(uuid "90fd9853-7fc4-4248-9187-59a64f476274")
 		(property "Reference" "#PWR119"
-			(at 248.92 76.2 0)
+			(at 245.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12023,7 +12029,7 @@
 			)
 		)
 		(property "Value" "+VBUS"
-			(at 256.54 76.1999 90)
+			(at 252.73 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12032,7 +12038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 76.2 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12041,7 +12047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 76.2 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,7 +12056,7 @@
 			)
 		)
 		(property "Description" "USB Power Delivery"
-			(at 252.73 76.2 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,7 +12144,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 252.73 80.01 90)
+		(at 248.92 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12146,7 +12152,7 @@
 		(dnp no)
 		(uuid "935e3409-98bb-48a7-ab6f-e20045d7f4db")
 		(property "Reference" "#PWR120"
-			(at 259.08 80.01 0)
+			(at 255.27 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,7 +12161,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 258.826 80.01 90)
+			(at 255.016 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12164,7 +12170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 80.01 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12173,7 +12179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 80.01 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12182,7 +12188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 80.01 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12311,7 +12317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 26.67 62.738 0)
 			(effects
 				(font
@@ -12320,7 +12326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-CC603JRNPO9BN180"
+		(property "Mouser" "810-CGA3E2C0G1H180J"
 			(at 26.67 71.628 0)
 			(show_name yes)
 			(effects
@@ -12330,7 +12336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product" "CC0603JRNPO9BN180"
+		(property "Product" "CGA3E2C0G1H180J080AA"
 			(at 26.67 68.834 0)
 			(show_name yes)
 			(effects
@@ -12340,7 +12346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TDK"
 			(at 26.67 66.04 0)
 			(show_name yes)
 			(effects
@@ -12367,7 +12373,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+VBUS")
-		(at 204.47 87.63 270)
+		(at 200.66 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12376,7 +12382,7 @@
 		(fields_autoplaced yes)
 		(uuid "a23b4e86-4890-4d0e-aaaf-e9d03f94c73d")
 		(property "Reference" "#PWR118"
-			(at 200.66 87.63 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +12391,7 @@
 			)
 		)
 		(property "Value" "+VBUS"
-			(at 208.28 87.6299 90)
+			(at 204.47 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 87.63 0)
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12403,7 +12409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 87.63 0)
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12418,7 @@
 			)
 		)
 		(property "Description" "USB Power Delivery"
-			(at 204.47 87.63 0)
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12434,7 +12440,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:Shield")
-		(at 252.73 83.82 90)
+		(at 248.92 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12442,7 +12448,7 @@
 		(dnp no)
 		(uuid "a6e02ade-126a-40d1-976c-41182b6097e9")
 		(property "Reference" "#PWR130"
-			(at 259.08 83.82 0)
+			(at 255.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12457,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 259.842 83.82 90)
+			(at 256.032 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +12465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 83.82 0)
+			(at 248.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +12474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 83.82 0)
+			(at 248.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12477,7 +12483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 83.82 0)
+			(at 248.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,7 +12678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 148.59 57.15 0)
 			(effects
 				(font
@@ -12734,7 +12740,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:CG0603MLC-05LE")
-		(at 273.05 120.65 90)
+		(at 273.05 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12742,7 +12748,7 @@
 		(dnp no)
 		(uuid "b50dfcd1-7d56-4905-a928-cf4b8ea4139a")
 		(property "Reference" "TVS101"
-			(at 269.24 104.14 90)
+			(at 269.24 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,7 +12757,7 @@
 			)
 		)
 		(property "Value" "CG0603MLC-05LE"
-			(at 264.16 106.68 90)
+			(at 264.16 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12760,7 +12766,7 @@
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_0603"
-			(at 278.765 120.65 0)
+			(at 278.765 123.19 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -12769,7 +12775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 120.65 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12778,7 +12784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 120.65 0)
+			(at 273.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +12793,7 @@
 			)
 		)
 		(property "Mouser" "652-CG0603MLC-05LE"
-			(at 290.83 120.65 0)
+			(at 290.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +12802,7 @@
 			)
 		)
 		(property "Product" "CG0603MLC-05LE"
-			(at 286.004 120.65 0)
+			(at 286.004 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +12811,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 283.21 120.65 0)
+			(at 283.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12814,7 +12820,7 @@
 			)
 		)
 		(property "Rating" "5V"
-			(at 288.29 120.65 0)
+			(at 288.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12839,7 +12845,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 250.19 123.19 90)
+		(at 250.19 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12847,7 +12853,7 @@
 		(dnp no)
 		(uuid "b8d72967-847b-4ae0-adf9-630b91aaf6ed")
 		(property "Reference" "#PWR128"
-			(at 256.54 123.19 0)
+			(at 256.54 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12856,7 +12862,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 123.19 90)
+			(at 254 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12866,7 +12872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 123.19 0)
+			(at 250.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12875,7 +12881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 123.19 0)
+			(at 250.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12884,7 +12890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 123.19 0)
+			(at 250.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12906,7 +12912,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 222.25 95.25 90)
+		(at 218.44 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12915,7 +12921,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9f0e3be-0790-4bce-b975-3e3dc01314c0")
 		(property "Reference" "#PWR123"
-			(at 228.6 95.25 0)
+			(at 224.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12924,7 +12930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 95.2499 90)
+			(at 222.25 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12934,7 +12940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 95.25 0)
+			(at 218.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,7 +12949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 95.25 0)
+			(at 218.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,7 +12958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 95.25 0)
+			(at 218.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,7 +13085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 105.41 38.1 0)
 			(effects
 				(font
@@ -13149,7 +13155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4eba1e0-1461-4a2e-9b97-f281492e03cf")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR138"
 			(at 49.53 176.784 0)
 			(effects
 				(font
@@ -13200,7 +13206,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0138")
+					(reference "#PWR138")
 					(unit 1)
 				)
 			)
@@ -13216,7 +13222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c505a789-a4fa-424d-ac86-8981a48fd739")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR137"
 			(at 37.846 149.86 0)
 			(effects
 				(font
@@ -13268,7 +13274,7 @@
 		(instances
 			(project ""
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0137")
+					(reference "#PWR137")
 					(unit 1)
 				)
 			)
@@ -13384,7 +13390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 85.09 38.1 0)
 			(effects
 				(font
@@ -13697,7 +13703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Push button"
 			(at 128.27 74.93 0)
 			(effects
 				(font
@@ -13750,7 +13756,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_USB:JAE_DX07S016JA3")
-		(at 191.77 102.87 0)
+		(at 187.96 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13758,7 +13764,7 @@
 		(dnp no)
 		(uuid "e26cd7e8-e2c0-4ed6-a5a4-72dbf23c703c")
 		(property "Reference" "J102"
-			(at 183.896 76.962 0)
+			(at 180.086 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13766,7 +13772,7 @@
 			)
 		)
 		(property "Value" "DX07S016JA3"
-			(at 181.61 79.502 0)
+			(at 177.8 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13775,7 +13781,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_USB:JAE_DX07S016JA3"
-			(at 194.31 140.97 0)
+			(at 190.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13784,7 +13790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 102.87 0)
+			(at 191.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13793,7 +13799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 102.87 0)
+			(at 187.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13802,7 +13808,7 @@
 			)
 		)
 		(property "Mouser" "656-DX07S016JA3R1500"
-			(at 191.77 146.05 0)
+			(at 187.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13811,7 +13817,7 @@
 			)
 		)
 		(property "Product" "DX07S016JA3R1500"
-			(at 191.516 143.51 0)
+			(at 187.706 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13820,7 +13826,7 @@
 			)
 		)
 		(property "Manufacturer" "JAE Electronics"
-			(at 191.516 140.97 0)
+			(at 187.706 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14054,7 +14060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -14116,7 +14122,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:Shield")
-		(at 184.15 123.19 0)
+		(at 180.34 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14125,7 +14131,7 @@
 		(fields_autoplaced yes)
 		(uuid "ede2ed3d-1f4d-46da-a402-46d2991454fc")
 		(property "Reference" "#PWR136"
-			(at 184.15 129.54 0)
+			(at 180.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14134,7 +14140,7 @@
 			)
 		)
 		(property "Value" "Shield"
-			(at 184.15 127 0)
+			(at 180.34 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14142,7 +14148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 123.19 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14151,7 +14157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 123.19 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14160,7 +14166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 123.19 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +14188,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:0603_5k1")
-		(at 219.71 92.71 90)
+		(at 215.9 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14190,7 +14196,7 @@
 		(dnp no)
 		(uuid "f208dce6-7307-4718-a014-c4b5586f8c74")
 		(property "Reference" "R103"
-			(at 222.6125 87.5941 90)
+			(at 218.8025 88.8641 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14199,7 +14205,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 220.9799 90.17 90)
+			(at 217.1699 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14208,7 +14214,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 235.458 92.71 0)
+			(at 231.648 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,7 +14223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 92.71 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14225,8 +14231,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 232.41 92.71 0)
+		(property "Description" ""
+			(at 228.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14235,7 +14241,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06035K10FKEAC"
-			(at 242.57 92.71 0)
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14244,7 +14250,7 @@
 			)
 		)
 		(property "Product" "CRCW06035K10FKEAC"
-			(at 234.95 92.71 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14253,7 +14259,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 237.49 92.71 0)
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14262,7 +14268,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 240.03 92.71 0)
+			(at 236.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14824,7 +14830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 69.85 123.19 0)
 			(effects
 				(font
