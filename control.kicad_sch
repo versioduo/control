@@ -9176,6 +9176,17 @@
 				)
 			)
 		)
+		(property "Rating" "1.6N"
+			(at 252.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6873bfd1-5fab-4224-ae2a-5706d644f65d")
 		)
@@ -9966,6 +9977,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 212.09 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10031,6 +10053,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.725 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 212.725 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -10833,6 +10866,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 246.38 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11370,6 +11414,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.085 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 172.085 173.355 0)
 			(hide yes)
 			(show_name no)
@@ -12278,6 +12333,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 246.38 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -13008,6 +13074,17 @@
 				)
 			)
 		)
+		(property "Rating" "50V"
+			(at 31.75 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dbad3011-3bb7-4b68-acdf-fdc265c6dd90")
 		)
@@ -13709,6 +13786,17 @@
 			(at 26.67 66.04 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 26.67 73.66 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -15357,6 +15445,17 @@
 				)
 			)
 		)
+		(property "Rating" "1.6N"
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "accfb89e-4554-412c-b526-afa48735151e")
 		)
@@ -15569,6 +15668,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 246.38 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 246.38 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16522,6 +16632,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 246.38 151.257 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 246.38 151.257 0)
 			(hide yes)
 			(show_name no)

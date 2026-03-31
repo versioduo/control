@@ -811,7 +811,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Converter_DCDC:TPSM33625RDNR"
+		(symbol "V2_Converter_DCDC:TPSM33620S5QRDNRQ1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -821,7 +821,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -11.43 15.24 0)
+				(at -10.16 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -831,8 +831,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TPSM33625"
-				(at -11.43 12.7 0)
+			(property "Value" "TPSM33620S5QRDNRQ1"
+				(at -10.16 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -877,7 +877,7 @@
 					)
 				)
 			)
-			(property "Mouser" "595-TPSM33625RDNR"
+			(property "Mouser" "595-SM33620S5QRDNRQ1"
 				(at 0 -48.26 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -899,7 +899,7 @@
 					)
 				)
 			)
-			(property "Product" "TPSM33625RDNR"
+			(property "Product" "TPSM33620S5QRDNRQ1"
 				(at 0 -45.72 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -910,7 +910,7 @@
 					)
 				)
 			)
-			(property "Rating" "2.5A"
+			(property "Rating" "2A"
 				(at 0 -50.8 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -921,7 +921,7 @@
 					)
 				)
 			)
-			(symbol "TPSM33625RDNR_0_1"
+			(symbol "TPSM33620S5QRDNRQ1_0_1"
 				(rectangle
 					(start -10.16 10.16)
 					(end 10.16 -10.16)
@@ -934,7 +934,7 @@
 					)
 				)
 			)
-			(symbol "TPSM33625RDNR_1_1"
+			(symbol "TPSM33620S5QRDNRQ1_1_1"
 				(pin output line
 					(at 12.7 -7.62 180)
 					(length 2.54)
@@ -1008,7 +1008,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -30.48 180)
+					(at 0 -27.94 180)
 					(length 2.54)
 					(hide yes)
 					(name "SW"
@@ -1027,7 +1027,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -33.02 180)
+					(at 0 -30.48 180)
 					(length 2.54)
 					(hide yes)
 					(name "SW"
@@ -1046,7 +1046,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -27.94 180)
+					(at 0 -33.02 180)
 					(length 2.54)
 					(hide yes)
 					(name "BOOT"
@@ -1129,376 +1129,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Resistor:0603_10k"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "10k"
-				(at 3.302 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "71-CRCW060310K0FKEAC"
-				(at 0 -22.86 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Product" "CRCW060310K0FKEAC"
-				(at 0 -17.78 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rating" "100mW"
-				(at 0 -20.32 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603_10k_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0603_10k_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Resistor:0603_40k2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "40k2"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "71-RCS060340K2FKEA"
-				(at 0 -22.86 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rating" "500mW"
-				(at 0 -20.32 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Product" "RCS060340K2FKEA"
-				(at 0 -17.78 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603_40k2_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0603_40k2_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1766,29 +1396,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RT = VCC -> 1 MHz Switching Frequency"
-		(exclude_from_sim no)
-		(at 148.59 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c67e21f-e38e-482a-b07c-955cf3e4e591")
-	)
 	(junction
 		(at 119.38 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38de508a-1159-475d-9897-ed62b6c2f20f")
-	)
-	(junction
-		(at 182.88 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5686f85a-d42c-45ac-a7f0-20c63af60384")
 	)
 	(junction
 		(at 194.31 96.52)
@@ -1809,22 +1421,16 @@
 		(uuid "74995ec3-0fc4-4131-a708-4361cfb1d2df")
 	)
 	(junction
-		(at 146.05 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a27c3571-dad0-4a87-905d-d58cbabcc720")
-	)
-	(junction
-		(at 182.88 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6f36adf-02b4-4dd8-9152-fbe731c04a84")
-	)
-	(junction
 		(at 107.95 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8a5965b-efd8-491c-a288-10149b219dc6")
+	)
+	(junction
+		(at 171.45 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e95c518f-6eb0-41e9-a82d-0882be45b180")
 	)
 	(no_connect
 		(at 171.45 111.76)
@@ -1842,13 +1448,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 194.31 96.52)
+			(xy 171.45 96.52) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "216b7ea3-ca07-4eeb-a274-0ceb24213d6f")
+	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313f6b34-f572-40c8-b382-3c88619ea71a")
 	)
 	(wire
 		(pts
@@ -1879,16 +1495,6 @@
 			(type dash)
 		)
 		(uuid "52528a0c-77e3-4e8b-853f-f0c6d2ee55ca")
-	)
-	(wire
-		(pts
-			(xy 146.05 106.68) (xy 146.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75aedff3-4b32-43ef-affb-a831b5bde926")
 	)
 	(wire
 		(pts
@@ -1932,16 +1538,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 101.6) (xy 182.88 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32accfe-2fb0-4409-aac2-ed1bbe80d8d9")
-	)
-	(wire
-		(pts
 			(xy 194.31 96.52) (xy 205.74 96.52)
 		)
 		(stroke
@@ -1952,16 +1548,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 96.52) (xy 182.88 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0d3fa48-13af-4835-86b6-9a51fc6181c8")
-	)
-	(wire
-		(pts
 			(xy 146.05 96.52) (xy 146.05 99.06)
 		)
 		(stroke
@@ -1969,16 +1555,6 @@
 			(type default)
 		)
 		(uuid "ffefb69c-09bd-4642-9555-5d88d5114cc9")
-	)
-	(label "Feedback"
-		(at 171.45 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6327102b-00bf-462f-b62d-69d34564d9f8")
 	)
 	(label "Vcc"
 		(at 139.7 106.68 0)
@@ -2081,7 +1657,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 138.43 111.76 0)
+		(at 133.35 106.68 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2091,7 +1667,7 @@
 		(dnp no)
 		(uuid "1b3198a0-b3e0-4c86-934b-2a7e0a710e44")
 		(property "Reference" "#PWR507"
-			(at 138.43 118.11 0)
+			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +1678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 116.84 90)
+			(at 128.27 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2113,7 +1689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 111.76 0)
+			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2124,7 +1700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 111.76 0)
+			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2135,7 +1711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 111.76 0)
+			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2158,132 +1734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Resistor:0603_10k")
-		(at 182.88 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cb49bf2-5d95-4b7a-a763-ab682ac29ec5")
-		(property "Reference" "R502"
-			(at 184.15 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 184.15 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 182.88 119.888 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "71-CRCW060310K0FKEAC"
-			(at 182.88 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product" "CRCW060310K0FKEAC"
-			(at 182.88 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 182.88 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "100mW"
-			(at 182.88 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ae2a3aa-e0cf-4847-8034-67210003aa6f")
-		)
-		(pin "2"
-			(uuid "28968cdb-9880-486f-b63d-db706a5172ca")
-		)
-		(instances
-			(project "control"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "R502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_Converter_DCDC:TPSM33625RDNR")
+		(lib_id "V2_Converter_DCDC:TPSM33620S5QRDNRQ1")
 		(at 158.75 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -2303,7 +1754,7 @@
 				)
 			)
 		)
-		(property "Value" "TPSM33625"
+		(property "Value" "TPSM33620S5QRDNRQ1"
 			(at 154.94 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2348,7 +1799,7 @@
 				)
 			)
 		)
-		(property "Mouser" "595-TPSM33625RDNR"
+		(property "Mouser" "595-SM33620S5QRDNRQ1"
 			(at 158.75 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -2370,7 +1821,7 @@
 				)
 			)
 		)
-		(property "Product" "TPSM33625RDNR"
+		(property "Product" "TPSM33620S5QRDNRQ1"
 			(at 158.75 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -2381,7 +1832,7 @@
 				)
 			)
 		)
-		(property "Rating" "2.5A"
+		(property "Rating" "2A"
 			(at 158.75 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2429,209 +1880,6 @@
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
 					(reference "U501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_Resistor:0603_40k2")
-		(at 182.88 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a68a30c-bca8-4b4e-8ae2-b68fcc589215")
-		(property "Reference" "R501"
-			(at 184.15 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "40k2"
-			(at 184.15 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 182.88 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "71-RCS060340K2FKEA"
-			(at 182.88 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "500mW"
-			(at 182.88 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 182.88 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product" "RCS060340K2FKEA"
-			(at 182.88 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f6c5d20-ddab-4318-bd89-f1742de9a307")
-		)
-		(pin "2"
-			(uuid "0d3b0f29-4b50-41e8-b7e1-02324432272a")
-		)
-		(instances
-			(project "control"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "R501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_power:GND")
-		(at 182.88 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44d36923-7edb-4113-bea9-0b80169a769f")
-		(property "Reference" "#PWR506"
-			(at 182.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7667fbe3-318b-4927-814e-d98e6ca92bc0")
-		)
-		(instances
-			(project "control"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR506")
 					(unit 1)
 				)
 			)
@@ -2842,7 +2090,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:0603_1u")
-		(at 138.43 109.22 0)
+		(at 135.89 106.68 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2852,7 +2100,7 @@
 		(dnp no)
 		(uuid "583060ee-d321-49bf-b2d8-c223f030b421")
 		(property "Reference" "C505"
-			(at 130.81 107.95 0)
+			(at 134.366 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2863,7 +2111,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 130.81 110.49 0)
+			(at 134.62 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2874,7 +2122,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_0603"
-			(at 138.43 126.238 0)
+			(at 118.872 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 109.22 0)
+			(at 135.89 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +2144,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 121.92 0)
+			(at 123.19 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,7 +2155,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E3X7R1H105K0"
-			(at 138.43 129.54 0)
+			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2918,7 +2166,7 @@
 			)
 		)
 		(property "Product" "CGA3E3X7R1H105K080AB"
-			(at 138.43 127 0)
+			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2929,7 +2177,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 138.43 124.46 0)
+			(at 120.65 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2940,7 +2188,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 138.43 132.08 0)
+			(at 113.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,6 +2536,84 @@
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
 					(reference "#PWR502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:GND")
+		(at 146.05 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d89961b5-2bff-4104-b821-0e24eea3b3ff")
+		(property "Reference" "#PWR509"
+			(at 139.7 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e2b5045-4b38-494f-ab4f-79c554a9e28f")
+		)
+		(instances
+			(project "control"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
+					(reference "#PWR509")
 					(unit 1)
 				)
 			)
